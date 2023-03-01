@@ -1,0 +1,10 @@
+body {
+    background-color: gray;
+}
+
+.page {
+    width: 210mm;
+    height: 297mm;
+    margin: 10vh auto 10vh auto;
+    background-color: white;
+}
