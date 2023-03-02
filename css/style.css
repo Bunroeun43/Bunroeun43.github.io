@@ -5,6 +5,24 @@ body {
 .page {
     width: 210mm;
     height: 297mm;
-    margin: 10vh auto 10vh auto;
+    margin: 3vh auto 3vh auto;
     background-color: white;
 }
+
+.gauche {
+    background-color:rgb(44, 44, 135);
+    color: white;
+}
+
+/*================================ Photo =================================*/
+
+.chapitre {
+    padding-left: 15%;
+}
+
+#photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
