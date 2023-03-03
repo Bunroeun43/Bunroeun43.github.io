@@ -1,28 +1,65 @@
 body {
     background-color: gray;
+    font-family: 'Lato', sans-serif;
+}
+
+body, .droite {
+    color: gray;
 }
 
 .page {
     width: 210mm;
     height: 297mm;
-    margin: 3vh auto 3vh auto;
+    margin: auto;
     background-color: white;
 }
 
 .gauche {
-    background-color:rgb(44, 44, 135);
+    background-color:midnightblue;
     color: white;
 }
 
 /*================================ Photo =================================*/
 
 .chapitre {
-    padding-left: 15%;
+    padding-left: 10%;
 }
 
-#photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+img {
+    height: 15vh;
+    border-radius: 100%;
+    margin-top: -0.5vh;
+    margin-bottom: 2vh;
 }
 
+#margehaut {
+    height: 5vh;
+}
+
+.chapitre {
+    margin-top: 2em;
+}
+
+.chapitre .titre {
+    text-transform: uppercase;
+}
+
+.chapitre2 {
+    margin-top: 2em;
+}
+
+.chapitre2 .titre2 {
+    text-transform: uppercase;
+}
+
+.annee {
+    font-weight: bold;
+}
+
+.projet {
+    font-weight: bold;
+}
+
+.xppro {
+    margin-bottom: 1em;
+}
