@@ -63,3 +63,8 @@ img {
 .xppro {
     margin-bottom: 1em;
 }
+
+.page {
+    margin: auto;
+    width: 20vw;
+}
