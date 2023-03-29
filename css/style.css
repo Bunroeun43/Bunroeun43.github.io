@@ -65,6 +65,7 @@ img {
 }
 
 .page {
+    padding-top: 2vh;
     width: 210mm;
     height: 320mm;
 }
