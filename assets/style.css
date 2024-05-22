@@ -130,3 +130,10 @@ body {
   background: #1da1f2;
   color: #fff;
 }
+
+.wrapper .tailwind:hover,
+.wrapper .tailwind:hover .tooltip,
+.wrapper .tailwind:hover .tooltip::before {
+  background: #1da1f2;
+  color: #fff;
+}
