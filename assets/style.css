@@ -18,6 +18,14 @@ body {
     font-weight: 500;
 }
 
+.nav-start {
+  text-align: left;
+}
+
+.nav-end {
+  text-align: right;
+}
+
 .wrapper {
     display: inline-flex;
     list-style: none;
@@ -99,5 +107,26 @@ body {
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
   background: #000;
+  color: #fff;
+}
+
+.wrapper .wordpress:hover,
+.wrapper .wordpress:hover .tooltip,
+.wrapper .wordpress:hover .tooltip::before {
+  background: #1877f2;
+  color: #fff;
+}
+
+.wrapper .symfony:hover,
+.wrapper .symfony:hover .tooltip,
+.wrapper .symfony:hover .tooltip::before {
+  background: #000;
+  color: #fff;
+}
+
+.wrapper .react:hover,
+.wrapper .react:hover .tooltip,
+.wrapper .react:hover .tooltip::before {
+  background: #1da1f2;
   color: #fff;
 }
