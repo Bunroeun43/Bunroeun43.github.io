@@ -12,7 +12,8 @@
 }
 
 .card img {
-  max-width: 300px;
-  max-height: 200px;
+  width: 300px;
+  height: 200px;
   border-radius: 25px;
+  box-shadow: 10px 10px 15px #7612A6;
 }
