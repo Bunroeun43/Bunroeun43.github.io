@@ -7,6 +7,31 @@
   cursor: pointer;
 }
 
+/* Effets au survol des icônes réseaux sociaux */
+.social-icon svg {
+  transition: transform 0.25s, filter 0.25s;
+}
+
+.social-icon.linkedin:hover svg {
+  transform: scale(1.2) rotate(-8deg);
+  filter: drop-shadow(0 0 8px #0a66c2);
+}
+
+.social-icon.twitter:hover svg {
+  transform: scale(1.2) rotate(8deg);
+  filter: drop-shadow(0 0 8px #1da1f2);
+}
+
+.social-icon.github:hover svg {
+  transform: scale(1.2) rotate(-8deg);
+  filter: drop-shadow(0 0 8px #fff);
+}
+
+/* Optionnel : curseur pointeur sur les icônes */
+.social-icon {
+  cursor: pointer;
+}
+
 .skills {
   width: 150px;
 }
