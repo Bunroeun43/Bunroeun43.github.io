@@ -13,17 +13,17 @@
 }
 
 .social-icon.linkedin:hover svg {
-  transform: scale(1.2) rotate(-8deg);
+  transform: scale(1.4) rotate(-16deg);
   filter: drop-shadow(0 0 8px #0a66c2);
 }
 
 .social-icon.twitter:hover svg {
-  transform: scale(1.2) rotate(8deg);
+  transform: scale(1.4) rotate(16deg);
   filter: drop-shadow(0 0 8px #1da1f2);
 }
 
 .social-icon.github:hover svg {
-  transform: scale(1.2) rotate(-8deg);
+  transform: scale(1.4) rotate(-16deg);
   filter: drop-shadow(0 0 8px #fff);
 }
 
