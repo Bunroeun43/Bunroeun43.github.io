@@ -9,22 +9,25 @@
 
 /* Effets au survol des icônes réseaux sociaux */
 .social-icon svg {
-  transition: transform 0.25s, filter 0.25s;
+  transition: transform 0.25s, filter 0.25s, fill 0.25s;
 }
 
 .social-icon.linkedin:hover svg {
   transform: scale(1.4) rotate(-16deg);
-  filter: drop-shadow(0 0 8px #0a66c2);
+  filter: drop-shadow(0 0 8px #7612A6);
+  fill: url(#linkedinGradient);
 }
 
 .social-icon.twitter:hover svg {
   transform: scale(1.4) rotate(16deg);
-  filter: drop-shadow(0 0 8px #1da1f2);
+  filter: drop-shadow(0 0 8px #7612A6);
+  fill: url(#twitterGradient);
 }
 
 .social-icon.github:hover svg {
   transform: scale(1.4) rotate(-16deg);
-  filter: drop-shadow(0 0 8px #fff);
+  filter: drop-shadow(0 0 8px #7612A6);
+  fill: url(#githubGradient);
 }
 
 /* Optionnel : curseur pointeur sur les icônes */
@@ -38,8 +41,8 @@ a[download] svg {
 }
 
 a[download]:hover svg {
-  transform: scale(1.2) rotate(-15deg);
-  filter: drop-shadow(0 0 10px #7612A6);
+  transform: scale(1.15) rotate(-15deg);
+  filter: drop-shadow(0 0 15px #7612A6);
 }
 
 .skills {

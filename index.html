@@ -8,28 +8,48 @@
 </head>
 <body class="w-full text-white container mx-auto" style="background-image: url('./assets/img/background.jpg'); background-size: cover; background-attachment: fixed;">
 	<header class="w-full h-12 bg-transparent font-bold">
+		<!-- Définitions des dégradés SVG -->
+		<svg width="0" height="0" style="position: absolute;">
+			<defs>
+				<linearGradient id="linkedinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+					<stop offset="0%" style="stop-color:#7612A6"/>
+					<stop offset="50%" style="stop-color:#8B5CF6"/>
+					<stop offset="100%" style="stop-color:#A855F7"/>
+				</linearGradient>
+				<linearGradient id="twitterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+					<stop offset="0%" style="stop-color:#7612A6"/>
+					<stop offset="50%" style="stop-color:#8B5CF6"/>
+					<stop offset="100%" style="stop-color:#A855F7"/>
+				</linearGradient>
+				<linearGradient id="githubGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+					<stop offset="0%" style="stop-color:#7612A6"/>
+					<stop offset="50%" style="stop-color:#8B5CF6"/>
+					<stop offset="100%" style="stop-color:#A855F7"/>
+				</linearGradient>
+			</defs>
+		</svg>
 		<nav class="flex w-full items-center justify-between px-5 py-2">
 			<div class="w-full">
 				<a href="./assets/docs/CVATS.pdf" class="flex items-center" download title="télécharger">
-						<svg xmlns="http://www.w3.org/5000/svg" width="32" height="32" fill="#7612A6" viewBox="0 0 256 256"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"></path></svg>
-					<span class="mx-2">Curriculum Vitae</span>
+						<svg xmlns="http://www.w3.org/5000/svg" width="48" height="48" fill="#7612A6" viewBox="0 0 256 256"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"></path></svg>
+					<span class="mx-3 text-lg">Curriculum Vitae</span>
 				</a>
 			</div>
 			<div class="flex w-full justify-end">
-				<ul class="flex gap-5 text-white">
+				<ul class="flex gap-6 text-white">
 					<li class="social-icon linkedin">
 						<a href="https://www.linkedin.com/in/bunroeun-chhum/" target="_blank">
-							<svg xmlns="http://www.w3.org/5000/svg" height="1em" viewBox="0 5 1036 990"><path d="M0 120c0-33.334 11.667-60.834 35-82.5C58.333 15.833 88.667 5 126 5c36.667 0 66.333 10.666 89 32 23.333 22 35 50.666 35 86 0 32-11.333 58.666-34 80-23.333 22-54 33-92 33h-1c-36.667 0-66.333-11-89-33S0 153.333 0 120zm13 875V327h222v668H13zm345 0h222V622c0-23.334 2.667-41.334 8-54 9.333-22.667 23.5-41.834 42.5-57.5 19-15.667 42.833-23.5 71.5-23.5 74.667 0 112 50.333 112 151v357h222V612c0-98.667-23.333-173.5-70-224.5S857.667 311 781 311c-86 0-153 37-201 111v2h-1l1-2v-95H358c1.333 21.333 2 87.666 2 199 0 111.333-.667 267.666-2 469z" fill="#fff"></path></svg>
+							<svg xmlns="http://www.w3.org/5000/svg" height="1.5em" viewBox="0 5 1036 990"><path d="M0 120c0-33.334 11.667-60.834 35-82.5C58.333 15.833 88.667 5 126 5c36.667 0 66.333 10.666 89 32 23.333 22 35 50.666 35 86 0 32-11.333 58.666-34 80-23.333 22-54 33-92 33h-1c-36.667 0-66.333-11-89-33S0 153.333 0 120zm13 875V327h222v668H13zm345 0h222V622c0-23.334 2.667-41.334 8-54 9.333-22.667 23.5-41.834 42.5-57.5 19-15.667 42.833-23.5 71.5-23.5 74.667 0 112 50.333 112 151v357h222V612c0-98.667-23.333-173.5-70-224.5S857.667 311 781 311c-86 0-153 37-201 111v2h-1l1-2v-95H358c1.333 21.333 2 87.666 2 199 0 111.333-.667 267.666-2 469z" fill="#fff"></path></svg>
 						</a>
 					</li>
 					<li class="social-icon twitter">
 						<a href="https://x.com/Bunroeun43" target="_blank">
-							<svg fill="none" height="1em" xmlns="http://www.w3.org/5000/svg" viewBox="0.254 0.25 500 451.95400000000006"><path d="M394.033.25h76.67L303.202 191.693l197.052 260.511h-154.29L225.118 294.205 86.844 452.204H10.127l179.16-204.77L.254.25H158.46l109.234 144.417zm-26.908 406.063h42.483L135.377 43.73h-45.59z" fill="#fff"></path></svg>
+							<svg fill="none" height="1.5em" xmlns="http://www.w3.org/5000/svg" viewBox="0.254 0.25 500 451.95400000000006"><path d="M394.033.25h76.67L303.202 191.693l197.052 260.511h-154.29L225.118 294.205 86.844 452.204H10.127l179.16-204.77L.254.25H158.46l109.234 144.417zm-26.908 406.063h42.483L135.377 43.73h-45.59z" fill="#fff"></path></svg>
 						</a>
 					</li>
 					<li class="social-icon github">
 						<a href="https://github.com/Bunroeun43" target="_blank">
-							<svg role="img" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/5000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill="#fff"></path></svg>
+							<svg role="img" height="1.5em" viewBox="0 0 24 24" xmlns="http://www.w3.org/5000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill="#fff"></path></svg>
 						</a>
 					</li>
 				</ul>
